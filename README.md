@@ -8,32 +8,26 @@ The original model by Sturrock et al. involves 4 variables:
 (
 𝑡
 )
-T(t): tumor (glioma) concentration
+: tumor (glioma) concentration
 
 𝜎
 brain
 (
 𝑡
 )
-σ 
-brain
-​
- (t): glucose in brain
+: glucose in brain
 
 𝐼
 (
 𝑡
 )
-I(t): immune system activity
+: immune system activity
 
 𝜎
 serum
 (
 𝑡
 )
-σ 
-serum
-​
- (t): glucose in serum
+: glucose in serum
 
 The original immune term was wholly negative, meaning the immune system was treated as entirely anti-oncogenic (tumor-suppressive). This oversimplifies glioma immunology, where pro-tumor immune phenotypes (e.g., M2 macrophages, Tregs) are common.
